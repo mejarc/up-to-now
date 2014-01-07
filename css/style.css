@@ -1,0 +1,82 @@
+html { font-size: 75%; } /* 12px */
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+h1, h2 { line-height: 1.33 }
+
+h1 { 
+  font-size: 3.157rem;
+  letter-spacing: .25rem;
+}
+
+h2 { font-size: 2.369rem; }
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  margin: 120px 0 0 0;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  float: left;
+  margin-right: 40px;
+}
+
+.display {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-transform: capitalize;
+}
+
+.time {
+  font-style: italic;
+  padding-right: .25rem;
+}
+
+#copyright {
+  padding: 10px 0;
+  margin: 15px 0;
+  text-align: center;
+}
+
+/* Theme */
+.noon {
+  color: #06266f;
+  background: rgba(70, 113, 213, 0.8); /* solid-color fallback */
+  background: linear-gradient(to bottom, rgba(70, 113, 213, 0.8) 75%, rgba(191, 113, 48, 0.8)) fixed;
+}
+
+.noon a {
+  color: #ff9640;
+}
+
+.noon h1 {
+  color: #ff9640;
+  text-shadow: 0 2px 2px #2a4480;
+}
+
+.noon h2, 
+.noon .time,
+.noon nav a:visited {
+  color: #2a4480;
+}
+
+.noon a:hover,
+.noon nav a:hover {
+  color: #ffd300;
+}
+
+
